@@ -1,0 +1,39 @@
+.job-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75vh; /* Set the component height to the full viewport height to center it vertically */
+    background-color: #f0f0f0; /* Background color */
+    border: 120px solid #ccc; /* Border color */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .job-component h2 {
+    margin-bottom: 20px;
+  }
+  
+  .job-component ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .job-component li {
+    margin-bottom: 15px;
+  }
+  
+  .job-component button {
+    background-color: #3f4143; /* Button color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .job-component button:hover {
+    background-color: #585b5e; /* Button color on hover */
+  }
