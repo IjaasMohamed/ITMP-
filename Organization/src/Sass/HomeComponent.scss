@@ -1,0 +1,22 @@
+.home-component {
+    display: flex;
+  }
+  
+  .main-content {
+    flex: 0 0 50%; /* Allocate 50% of the space to main-content */
+  }
+  
+  .connections-container-left,
+  .connections-container-right {
+    flex: 0 0 25%; /* Each connection container takes up 25% of the space */
+  }
+  
+  .connections-container-left {
+    margin-right: 4px; /* Add margin to the right of the left connection container */
+  }
+  
+  .connections-home .connections-main {
+    display: flex;
+    flex-direction: column;
+  }
+  
